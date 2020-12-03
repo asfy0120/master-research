@@ -45,7 +45,6 @@ with open(path+"TTS_sumple.csv",encoding="utf-8_sig") as readFile:
             writer.writerows(lines)
             readFile.close()
             writeFile.close()
-        print(l[0][0])
         with open(path+"TTS_sumple.csv", 'w',encoding="utf-8_sig") as writeFile:
             writer = csv.writer(writeFile, lineterminator="\n")
             writer.writerows(l)
