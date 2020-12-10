@@ -1,0 +1,12 @@
+csvファイル学習メモ書式
+[メモ題目，メモ内容，年，月，日]
+
+メモを音声で流すための手順(11-25 暫定版)
+1.google tts用のサービスアカウントキーが含まれるJASONファイルをダウンロード
+2.csvファイルのメモ，test.bat,tts,pyを同じディレクトリに置く
+3.環境変数 GOOGLE_APPLICATION_CREDENTIALS をJSON ファイルのパスに設定
+ powershell $env:GOOGLE_APPLICATION_CREDENTIALS="PATH"
+4.csvファイルのメモ，test.bat,tts,pyを含むディレクトリでtest.batを実行
+
+学習メモは現在，確定で先頭の行を参照する
+メモの探索の仕方は検討する必要あり
